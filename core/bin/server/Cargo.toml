@@ -2,8 +2,7 @@
 name = "zksync_server"
 version = "1.0.0"
 edition = "2018"
-authors = ["The Matter Labs Team <hello@matterlabs.dev>"]
-h[dependencies]
+
 zksync_api = { path = "../zksync_api", version = "1.0" }
 zksync_core = { path = "../zksync_core", version = "1.0" }
 zksync_witness_generator = { path = "../zksync_witness_generator", version = "1.0" }
