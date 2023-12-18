@@ -9,7 +9,9 @@ license = "Apache-2.0"
 keywords = ["blockchain", "zksync"]
 categories = ["cryptography"]
 publish = false # We don't want to publish our binaries.
-
+[features]
+default = []
+api_test = []
 [features]
 default = []
 api_test = []
