@@ -6,6 +6,13 @@ import { loadConfig } from './config';
 import type { Network } from './types';
 
 function print(object: any) {
+    console.log(JSON.strin
+import { Command } from 'commander';
+import * as commands from './commands';
+import { loadConfig } from './config';
+import type { Network } from './types';
+
+function print(object: any) {
     console.log(JSON.stringify(object, null, 4));
 }
 
