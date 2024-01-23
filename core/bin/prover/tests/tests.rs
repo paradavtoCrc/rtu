@@ -1,14 +1,4 @@
-// TODO! do some tests
 
-// // Built-in deps
-// use std::fmt;
-// use std::sync::{mpsc, Arc, Mutex};
-// use std::{thread, time};
-// // External deps
-// use num::BigUint;
-// use zksync_crypto::pairing::ff::PrimeField;
-// // Workspace deps
-// use zksync_circuit::{
 //     circuit::ZkSyncCircuit,
 //     witness::{deposit::DepositWitness, utils::WitnessBuilder, Witness},
 // };
