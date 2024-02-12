@@ -5,4 +5,11 @@
       "prettier/prettier": "error",
       "no-inline-assembly": false
     }
+  }{
+    "extends": "solhint:default",
+    "plugins": ["prettier"],
+    "rules": {
+      "prettier/prettier": "error",
+      "no-inline-assembly": false
+    }
   }
