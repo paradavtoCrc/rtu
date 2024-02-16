@@ -1,23 +1,3 @@
-import { deployContract } from 'ethereum-waffle';
-import { ethers, Signer, providers } from 'ethers';
-import { formatEther, Interface } from 'ethers/lib/utils';
-import * as fs from 'fs';
-import {
-    encodeConstructorArgs,
-    encodeProxyContstuctorArgs,
-    publishAbiToTesseracts,
-    publishSourceCodeToEtherscan
-} from './publish-utils';
-import {
-    Governance,
-    GovernanceFactory,
-    UpgradeGatekeeper,
-    UpgradeGatekeeperFactory,
-    Verifier,
-    VerifierFactory,
-    ZkSync,
-    ZkSyncFactory
-} from '../typechain';
 
 export interface Contracts {
     governance;
